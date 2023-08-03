@@ -1,0 +1,235 @@
+body{
+    margin: 0px;
+    text-align: center ;
+    font-family: sans-serif,'Merriweather';
+}
+.five{
+    background-color: #66BFBF;
+}
+.imgg{
+    border-radius: 50%;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+p{
+    line-height: 2;
+}
+.nav-item{
+    color: white;
+}
+
+h1{
+    font-family: "Brush Script MT", cursive;
+    line-height: 2;
+    font-style: italic;
+    color: #66BFBF;
+    font-size: 10rem;
+    margin:0px;
+    top:10px
+
+}
+.nit{
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hello{
+    padding-top: 100px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    width: 80%;
+    height: 10%;
+    border-collapse: collapse;
+}
+.nav-link{
+    color: black !important;
+    font-size: large !important;
+}
+.nav-link:hover{
+    color: blue !important;
+}
+tr,td{
+    border: 2px solid;
+}
+
+.info{
+    margin-left:500px ;
+    font-weight:bold;
+    font-family:  sans-serif;
+}
+#skills{
+    width: 100%;
+    height: 800px;
+}
+.middle-container{
+    margin: 0;
+    width: 100%;
+    height: 790px;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg");
+}
+h2{
+font-size: 2.5rem;
+font-family: 'Montserrat',sans-serif;
+color: #66BFBF;
+}
+.navbar{
+    background-color: #ECF2FF;
+    font-size: medium;
+}
+.links{
+    text-decoration: none;
+    text-align: left;
+    margin-left: 0px;
+    margin: 0px;
+}
+
+.header{
+    display: inline-block;
+}
+h3{
+    color: #11999E;
+    font-family: 'Montserrat',sans-serif;
+}
+.top-container-fluid{
+    padding-top: 180px;
+    width: 100%;
+    height: 790px;
+}
+
+.footer-link{
+    color: blue;
+    margin-top: 100px;
+}
+.navbar:hover{
+    color: white;
+}
+.navbar-nav .ms-auto .nav-item{
+    color: black;
+    font-size: medium   ;
+}
+.bottomcloud{
+    position: absolute;
+    margin-top: 30px;
+     
+}
+.topcloud{
+    right:300px;
+    top:120px;
+    position: absolute;
+}
+ul{
+    text-align: left;
+    margin-left: 700px;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+  .skills{
+    margin-top: 100px;
+  }
+  .mountain{
+    height: 400px;
+    margin-top: 110px;
+  }
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #10e0d2);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #10e0d2);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #10e0d2);
+    background-image: -o-linear-gradient(top, #3cb0fd, #10e0d2);
+    background-image: linear-gradient(to bottom, #3cb0fd, #10e0d2);
+    text-decoration: none;
+  }
+  .bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+    margin-top: 0px;
+  }
+  .footer-link{
+    margin: 10px;
+    text-decoration: none;
+  }
+  hr{
+    border:dashed #E8E4A5 10px ;
+    border-bottom: none;
+    width: 4%;
+    margin: auto;
+  }
+  a{
+    text-decoration: none;
+    margin: 10px 20px;
+    color: #11999E;
+  }
+  a:hover{
+    color: whitesmoke;
+  }
+.hii{
+    margin-bottom: 50px;
+}
+.copyright{
+    font-size: 0.75rem;
+    color:#EAf6f6;
+    padding: 20px 0px;
+}
+
+
+.block {
+	position: relative;
+	margin: 300px auto 0;
+	width: 500px;
+	height: 250px;
+	background: linear-gradient(0deg, #000, #272727);
+}
+
+.block:before, .block:after {
+	content: '';
+	position: absolute;
+	left: -2px;
+	top: -2px;
+	background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, 
+		#0000ff, #00ff00,#ffff00, #ff0000);
+	background-size: 400%;
+	width: calc(100% + 4px);
+	height: calc(100% + 4px);
+	z-index: -1;
+	animation: steam 20s linear infinite;
+}
+
+@keyframes steam {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+
+.block:after {
+	filter: blur(50px);
+}
